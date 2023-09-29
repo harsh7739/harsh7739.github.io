@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function Navbar(){
     return (
-        <div data-testid="nav-menu" style={{display:"flex",justifyContent:"space-around",padding:"10px"}}>
+        <div id="nav-menu" style={{display:"flex",justifyContent:"space-around",padding:"10px"}}>
             <Link className="nav-link home" to={"/"}>Home</Link>
             <Link className="nav-link about" to={"/about"}>About</Link>
             <Link className="nav-link skills" to={"/skill"}>Skills</Link>

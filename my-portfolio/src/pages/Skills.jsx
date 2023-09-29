@@ -1,6 +1,6 @@
 function Skills(){
     return (
-        <div data-testid="skills">
+        <div id="skills">
             <h1>Skills</h1>
             <h1>Skills</h1>
             <h1>Skills</h1>
@@ -8,7 +8,7 @@ function Skills(){
             <h1>Skills</h1>
             <h1>Skills</h1>
             <h1>Skills</h1>
-            
+
         </div>
     )
 }

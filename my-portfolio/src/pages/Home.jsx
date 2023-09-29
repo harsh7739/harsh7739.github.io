@@ -1,8 +1,8 @@
 function Home(){
     return (
-        <div data-testid="home">
-             <h1 data-testid="user-detail-name">Harshranjan kumar</h1>
-             <p data-testid="user-detail-intro">Full Stack Web Developer</p>
+        <div id="home">
+             <h1 id="user-detail-name">Harshranjan kumar</h1>
+             <p id="user-detail-intro">Full Stack Web Developer</p>
         </div>
     )
 }

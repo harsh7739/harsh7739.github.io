@@ -1,6 +1,6 @@
 function About(){
     return (
-        <div data-testid="about" className="about section">
+        <div id="about" className="about section">
             <h1>About</h1>
             <h1>About</h1>
             <h1>About</h1>
@@ -9,7 +9,7 @@ function About(){
             <h1>About</h1>
             <h1>About</h1>
             <h1>About</h1>
-            
+
         </div>
     )
 }
