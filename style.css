@@ -456,6 +456,9 @@ section .title::after {
 #projects .title::after {
   content: "see my work";
 }
+ .project-description{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 #projects .carousel .project-card {
   background: #222;
   border-radius: 6px;
