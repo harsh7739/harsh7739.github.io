@@ -494,7 +494,7 @@ section .title::after {
   /* border: 2px solid wheat; */
 }
 
-.repo-div {
+.project-github-link {
   display: flex;
   width: 35%;
   border: 1px solid white;
@@ -502,22 +502,22 @@ section .title::after {
   align-items: center;
 }
 
-.demo-div {
+.project-deployed-link {
   display: flex;
   width: 35%;
   border: 1px solid white;
   justify-content: center;
   align-items: center;
 }
-.techStack {
+.project-tech-stack {
   color: purple;
 }
 
-.demo-div a,
-.repo-div a,
-.repo-div a:link,
-.demo-div a:link,
-.techStack {
+.project-deployed-link a,
+.project-github-link a,
+.project-github-link a:link,
+.project-deployed-link a:link,
+.project-tech-stack {
   text-decoration: none;
   color: white;
 }
