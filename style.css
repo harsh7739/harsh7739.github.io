@@ -453,7 +453,7 @@ section .title::after {
 } */
 
 /* project section styling */
-#projects .project-title::after {
+#projects .title::after {
   content: "see my work";
 }
 #projects .carousel .project-card {
@@ -479,7 +479,7 @@ section .title::after {
 #projects .carousel .project-card:hover .box {
   transform: scale(1.05);
 }
-#projects .carousel .project-card .text {
+#projects .carousel .project-card .project-title {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
