@@ -337,10 +337,10 @@ section .title::after {
   background-repeat:no-repeat;
   /* border: 5px solid crimson; */
 }
-.skills-card{
-  /* border: 5px solid crimson; */
-  margin: auto;
-}
+ .skills-card{ 
+   /* border: 5px solid crimson;  */
+   margin: auto; 
+ } 
 
 .skills-card .skills-card-img {
   height: 130px;
@@ -385,11 +385,11 @@ section .title::after {
   text-align: center;
   /* border: 1px solid red; */
 }
-#skills .skills-content .left p {
+#skills .skills-content .left .skills-card-name {
   text-align: center;
   /* border: 1px solid red; */
 }
-#skills .skills-content .right p {
+#skills .skills-content .right .skills-card-name {
   text-align: center;
   /* border: 1px solid red; */
 }
