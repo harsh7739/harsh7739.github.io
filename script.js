@@ -72,7 +72,7 @@ $(document).ready(function () {
   });
 });
 
-document.getElementById("resume-button-1").addEventListener("click", function(event) {
+document.getElementById("resume-link-1").addEventListener("click", function(event) {
   event.preventDefault(); // Prevent the default behavior of the link (navigating to the PDF)
 
   // Open the PDF in a new tab
@@ -88,7 +88,7 @@ document.getElementById("resume-button-1").addEventListener("click", function(ev
   document.body.removeChild(a);
 });
 
-document.getElementById("resume-button-2").addEventListener("click", function(event) {
+document.getElementById("resume-link-2").addEventListener("click", function(event) {
   event.preventDefault(); // Prevent the default behavior of the link (navigating to the PDF)
 
   // Open the PDF in a new tab
