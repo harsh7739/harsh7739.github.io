@@ -72,37 +72,53 @@ $(document).ready(function () {
   });
 });
 
-document.getElementById("resume-link-1").addEventListener("click", function(event) {
-  event.preventDefault(); // Prevent the default behavior of the link (navigating to the PDF)
+// document.getElementById("resume-link-1 ").addEventListener("click", function(event) {
+//   event.preventDefault(); // Prevent the default behavior of the link (navigating to the PDF)
 
-  // Open the PDF in a new tab
-  window.open("/images/Rishi_Ranjan_resume.pdf", "_blank");
+//   // Open the PDF in a new tab
+//   window.open("/images/Rishi_Ranjan_resume.pdf", "_blank");
 
-  // Trigger the download
-  var a = document.createElement("a");
-  a.href = "/images/Rishi_Ranjan_resume.pdf";
-  a.download = "resume.pdf";
-  a.style.display = "none";
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-});
+//   // Trigger the download
+//   var a = document.createElement("a");
+//   a.href = "/images/Rishi_Ranjan_resume.pdf";
+//   a.download = "resume.pdf";
+//   a.style.display = "none";
+//   document.body.appendChild(a);
+//   a.click();
+//   document.body.removeChild(a);
+// });
 
-document.getElementById("resume-link-2").addEventListener("click", function(event) {
-  event.preventDefault(); // Prevent the default behavior of the link (navigating to the PDF)
+// document.getElementById("resume-link-2").addEventListener("click", function(event) {
+//   event.preventDefault(); // Prevent the default behavior of the link (navigating to the PDF)
+//   // Open the PDF in a new tab
+//   window.open("/images/Rishi_Ranjan_resume.pdf", "_blank");
 
-  // Open the PDF in a new tab
-  window.open("/images/Rishi_Ranjan_resume.pdf", "_blank");
-
-  // Trigger the download
-  var a = document.createElement("a");
-  a.href = "/images/Rishi_Ranjan_resume.pdf";
-  a.download = "resume.pdf";
-  a.style.display = "none";
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-});
+//   // Trigger the download
+//   var a = document.createElement("a");
+//   a.href = "/images/Rishi_Ranjan_resume.pdf";
+//   a.download = "resume.pdf";
+//   a.style.display = "none";
+//   document.body.appendChild(a);
+//   a.click();
+//   document.body.removeChild(a);
+// });
 
 
+
+// function openResumeInNewTab(section) {
+//   var resumeLink = document.getElementById("resume-link-" + section);
+//   if (resumeLink) {
+//       window.open(resumeLink.href, "_blank");
+//   }
+// }
+
+// // Add click event listeners to the buttons
+// document.getElementById("resume-button-1").addEventListener("click", function () {
+//   openResumeInNewTab(1);
+// });
+
+
+function resume() {
+  window.open("./images/Rishi_Ranjan_resume.pdf", "_blank");
+}
 
