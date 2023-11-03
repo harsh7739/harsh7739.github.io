@@ -119,9 +119,9 @@ $(document).ready(function () {
 
 
 function resume() {
-  window.open("./images/Rishi_Ranjan_resume.pdf", "_blank");
+  window.open("/images/Rishi_Ranjan_resume.pdf", "_blank");
 }
 function resume1() {
-  window.open("./images/Rishi_Ranjan_resume.pdf", "_blank");
+  window.open("/images/Rishi_Ranjan_resume.pdf", "_blank");
 }
 
