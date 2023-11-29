@@ -124,6 +124,25 @@ section .title::after {
   margin-left: 25px;
   transition: color 0.3s ease;
 }
+#nav-menu .menu li #resume-button-1 {
+  display: block;
+  background-color: #ffcc00;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  padding:5px 8px 5px 8px;
+  transition: color 0.3s ease;
+}
+ #nav-menu .menu li #resume-button-1 #resume-link-1{
+width: 100%;
+margin: auto;
+ } 
+ #nav-menu .menu li #resume-button-1:hover{
+ background-color:  #fff;
+ color: #ffcc00;
+   } 
 #nav-menu .menu li a:hover {
   color: #ffcc00;
 }
@@ -203,7 +222,7 @@ section .title::after {
   color: #ffcc00;
   font-weight: 500;
 }
-#home .home-content a {
+/* #home .home-content a {
   display: inline-block;
   background: #ffcc00;
   color: #fff;
@@ -214,8 +233,24 @@ section .title::after {
   border-radius: 6px;
   border: 2px solid #ffcc00;
   transition: all 0.3s ease;
+} */
+#home .home-content #resume-button-2 {
+  display: inline-block;
+  background: #ffcc00;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  /* margin-top: 20px; */
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid #ffcc00;
+  transition: all 0.3s ease;
 }
-#home .home-content a:hover {
+/* #home .home-content a:hover {
+  color: #ffcc00;
+  background: none;
+} */
+#home .home-content #resume-button-2:hover {
   color: #ffcc00;
   background: none;
 }
@@ -705,7 +740,7 @@ footer span a:hover {
     padding: 0 50px;
   }
 }
-@media (max-width: 947px) {
+@media (max-width: 948px) {
   .nav-link {
     display: block;
     z-index: 999;
@@ -735,13 +770,22 @@ footer span a:hover {
     margin: 20px 0;
     font-size: 25px;
   }
+  #nav-menu .menu li #resume-button-1 {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
   #home .home-content .text-2 {
     font-size: 70px;
   }
   #home .home-content .text-3 {
     font-size: 35px;
   }
-  #home .home-content a {
+  /* #home .home-content a {
+    font-size: 23px;
+    padding: 10px 30px;
+  } */
+  #home .home-content #resume-button-2 {
     font-size: 23px;
     padding: 10px 30px;
   }
@@ -767,6 +811,7 @@ footer span a:hover {
   #contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
+    height: auto;
   }
 }
 
@@ -780,7 +825,10 @@ footer span a:hover {
   #home .home-content .text-3 {
     font-size: 32px;
   }
-  #home .home-content a {
+  /* #home .home-content a {
+    font-size: 20px;
+  } */
+  #home .home-content #resume-button-2 {
     font-size: 20px;
   }
   .services .serv-content .project-card {
@@ -818,3 +866,4 @@ footer span a:hover {
     line-height: 38px;
   }
 }
+
