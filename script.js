@@ -73,7 +73,7 @@ $(document).ready(function () {
 });
 
 function resume() {
-  window.open("/images/harshcv.pdf", "_blank");
+  window.open("/images/Harsh-Ranjan-Resume.pdf", "_blank");
 }
 
 
