@@ -90,6 +90,7 @@ section .title::after {
   padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
+  background-color: #ffcc00;
 }
 #nav-menu.sticky {
   padding: 15px 0;
@@ -99,6 +100,7 @@ section .title::after {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 #nav-menu .logo a {
   color: #fff;
@@ -144,7 +146,10 @@ margin: auto;
  color: #ffcc00;
    } 
 #nav-menu .menu li a:hover {
-  color: #ffcc00;
+  /* color: #ffcc00; */
+  color:  #fff;
+  /* background-color:  #fff;
+  color: #ffcc00; */
 }
 #nav-menu.sticky .menu li a:hover {
   color: #fff;
@@ -500,13 +505,19 @@ margin: auto;
  .project-description{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+#projects .carousel{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
 #projects .carousel .project-card {
   background: #222;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
   overflow: hidden;
-  /* transition: all 0.3s ease; */
+  transition: all 0.3s ease;
 }
 #projects .carousel .project-card:hover {
   background: #ffcc00;
@@ -518,7 +529,7 @@ margin: auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* transition: all 0.3s ease; */
+  transition: all 0.3s ease;
 }
 #projects .carousel .project-card:hover .box {
   transform: scale(1.05);
@@ -568,7 +579,8 @@ margin: auto;
 
 #projects .carousel .project-card img {
   height: 250px;
-  width: 250px;
+  /* width: 250px; */
+  width: 100%;
   object-fit: cover;
   border-radius: 5%;
   border: 5px solid #ffcc00;
@@ -733,7 +745,21 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+  #projects .carousel{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+  }
 }
+
+/* @media (max-width: 1000px) {
+  #projects .carousel{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+  }
+  
+} */
 
 @media (max-width: 991px) {
   .max-width {
@@ -813,6 +839,11 @@ footer span a:hover {
     margin-bottom: 35px;
     height: auto;
   }
+  #projects .carousel{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
 }
 
 @media (max-width: 690px) {
@@ -833,6 +864,11 @@ footer span a:hover {
   }
   .services .serv-content .project-card {
     width: 100%;
+  }
+  #projects .carousel{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
   }
 }
 
@@ -865,5 +901,6 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+  
 }
 
