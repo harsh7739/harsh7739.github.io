@@ -51,10 +51,10 @@ $(document).ready(function () {
   // owl carousel script
   $(".carousel").owlCarousel({
     margin: 20,
-    loop: true,
-    autoplay: true,
-    autoplayTimeOut: 2000,
-    autoplayHoverPause: true,
+    // loop: true,
+    // autoplay: true,
+    // autoplayTimeOut: 2000,
+    // autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1,
@@ -65,7 +65,7 @@ $(document).ready(function () {
         nav: false,
       },
       1000: {
-        items: 3,
+        items: 4,
         nav: false,
       },
     },

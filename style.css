@@ -506,7 +506,7 @@ margin: auto;
   padding: 25px 35px;
   text-align: center;
   overflow: hidden;
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
 }
 #projects .carousel .project-card:hover {
   background: #ffcc00;
@@ -518,7 +518,7 @@ margin: auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
 }
 #projects .carousel .project-card:hover .box {
   transform: scale(1.05);
