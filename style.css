@@ -141,22 +141,20 @@ section .title::after {
 width: 100%;
 margin: auto;
  } 
- #nav-menu .menu li #resume-button-1:hover{
+ /* #nav-menu .menu li #resume-button-1:hover{
  background-color:  #fff;
  color: #ffcc00;
-   } 
-#nav-menu .menu li a:hover {
-  /* color: #ffcc00; */
-  color:  #fff;
-  /* background-color:  #fff;
-  color: #ffcc00; */
-}
-#nav-menu.sticky .menu li a:hover {
+   }  */
+/* #nav-menu .menu li a:hover {
+    color: #ffcc00; 
+    background-color:  #fff;  
+}  */
+/* #nav-menu.sticky .menu li a:hover {
   color: #fff;
-}
-#nav-menu.sticky .menu li a{
+} */
+/* #nav-menu.sticky .menu li a{
   color: #000;
-}
+} */
 /* menu btn styling */
 .nav-link {
   color: #fff;
@@ -800,6 +798,7 @@ footer span a:hover {
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
+    background-color: #222;
   }
   #home .home-content .text-2 {
     font-size: 70px;
@@ -883,6 +882,10 @@ footer span a:hover {
   #skills .skills-content .left .skills-card-name {
     font-size: 19px;
   }
+  /* #skills .skills-content{
+    width: 90%;
+    margin: auto;
+  } */
   #contact .right form .fields {
     flex-direction: column;
   }
