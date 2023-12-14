@@ -108,7 +108,8 @@ section .title::after {
   font-weight: 600;
 }
 #nav-menu .logo a span {
-  color: #ffcc00;
+  /* color: #ffcc00; */
+  color: #000;
   transition: all 0.3s ease;
 }
 #nav-menu.sticky .logo a span {
