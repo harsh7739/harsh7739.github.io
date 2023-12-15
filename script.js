@@ -78,4 +78,19 @@ function resume() {
   window.open("/images/Harsh-Ranjan-Resume.pdf", "_blank");
 }
 
+// for github calender
 
+// async function fetchFun(){
+//   let res = await fetch("https://api.github.com/users/harsh7739/events",{
+//     method:"GET",
+//     headers:{
+//       "Content-Type":"application/json"
+//     }
+//   })
+//   res = await res.json()
+//   console.log(res)
+// }
+
+// fetchFun()
+
+// const calendarContainer = document.getElementById('github-calendar');
